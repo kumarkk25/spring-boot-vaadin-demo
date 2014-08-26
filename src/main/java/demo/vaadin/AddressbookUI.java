@@ -33,7 +33,7 @@ import com.vaadin.ui.VerticalLayout;
  * embed your UI to an existing web page. 
  */
 @Title("Addressbook")
-@VaadinUI(/*path="addresses"*/)
+@VaadinUI(path="/addressbook")
 public class AddressbookUI extends UI {
 
 	private static final long serialVersionUID = 1L;
@@ -125,7 +125,7 @@ public class AddressbookUI extends UI {
 //		link.setWidth("100%");
 		bottomLeftFooterLayout.addComponent(link);
 
-		Link linkToSpring = new Link("Home to test thymleafe", new ExternalResource("./"));
+		Link linkToSpring = new Link("Back to spring's thymleave", new ExternalResource("/"));
 		link.setWidth("100%");
 		bottomLeftFooterLayout.addComponent(linkToSpring);
 	}

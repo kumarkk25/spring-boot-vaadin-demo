@@ -12,6 +12,6 @@ public class Application {
 
 	public static void main(String[] args) {
 		new SpringApplicationBuilder().sources(Application.class).web(true)
-				.logStartupInfo(true).run(args);
+				.logStartupInfo(true).showBanner(true).run(args);
 	}
 }
