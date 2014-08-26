@@ -18,7 +18,7 @@ public class SimpleVaadinUI extends UI {
 	protected void init(VaadinRequest vaadinRequest) {
 
 		Label label = new Label("Hello! I'm another simple UI!");
-		Link linkToSpring = new Link("Back to spring's thymleave",
+		Link linkToSpring = new Link("Back to spring's Thymeleaf",
 				new ExternalResource("/"));
 
 		AbsoluteLayout absoluteLayout = new AbsoluteLayout();

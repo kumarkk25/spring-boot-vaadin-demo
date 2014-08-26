@@ -121,11 +121,10 @@ public class AddressbookUI extends UI {
 		bottomLeftFooterLayout.setWidth("100%");
 		leftLayout.addComponent(bottomLeftFooterLayout);
 
-		Link link = new Link("Ralf Wehner", new ExternalResource("http://www.ralfwehner.org"));
-//		link.setWidth("100%");
+		Link link = new Link("vaadin4spring", new ExternalResource("https://github.com/peholmst/vaadin4spring"));
 		bottomLeftFooterLayout.addComponent(link);
 
-		Link linkToSpring = new Link("Back to spring's thymleave", new ExternalResource("/"));
+		Link linkToSpring = new Link("Back to spring's Thymeleaf", new ExternalResource("/"));
 		link.setWidth("100%");
 		bottomLeftFooterLayout.addComponent(linkToSpring);
 	}
